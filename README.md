@@ -39,26 +39,25 @@ Python: 3.6+
 🚀 Установка и запуск
 🔧 Быстрый запуск (Windows)
 
-1. Установите Minecraft и Forge
-  
-   Шаг 1: Убедитесь, что у вас есть Minecraft Java Edition
-   Шаг 2: Скачайте установщик Forge с https://files.minecraftforge.net/
-   Шаг 3: Запустите установщик и установите Forge
+— Убедитесь, что у вас установлен Minecraft Java Edition
+— Скачайте установщик Forge с
+https://files.minecraftforge.net/
 
+— Запустите установщик и установите Forge
 
-4. Установите Raspberry Jam Mod
+🧩 Установка Raspberry Jam Mod
 
-1. Скачайте .jar файл мода
-2. Переместите его в папку %appdata%/.minecraft/mods/
-3. Запустите Minecraft через Forge
+— Скачайте .jar файл мода
+— Переместите его в папку
+%appdata%/.minecraft/mods/
+— Запустите Minecraft через Forge
 
-
-3. Установите Python и зависимости
+Установите Python и зависимости
 
 pip install mcpi
 
 
-4. Клонируйте и запустите проект
+Клонируйте и запустите проект
 
 git clone https://github.com/yourusername/minecraft-zombie-attack.git
 cd minecraft-zombie-attack
@@ -66,7 +65,7 @@ python zombie_attack.py
 
 🐧 Linux / macOS
 
-1. Установите зависимости
+Установите зависимости
 
 sudo apt-get install python3 python3-pip   # Debian / Ubuntu
 
@@ -76,14 +75,14 @@ sudo apt-get install python3 python3-pip   # Debian / Ubuntu
 brew install python3                       # macOS
 
 
-2. Установите библиотеку mcpi
+Установите библиотеку mcpi
 
 pip3 install mcpi
 
 
-3. Запустите Minecraft с Forge и Raspberry Jam Mod
+Запустите Minecraft с Forge и Raspberry Jam Mod
 
-4. Запустите игру
+Запустите игру
 
 python3 zombie_attack.py
 
