@@ -39,8 +39,7 @@
 - Minecraft Forge
   Версия должна строго соответствовать версии Minecraft
 
-- RaspberryJuice (Server Mod)
- - Последняя версия
+- RaspberryJuice (Server Mod) - Последняя версия
 
 - Python  
   Версия 3.6 или выше
