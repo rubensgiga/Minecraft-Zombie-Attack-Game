@@ -3,7 +3,7 @@
 Игра на Python для Minecraft Java Edition, где тебе предстоит выжить против волн зомби на автоматически построенной арене.  
 Собирай ресурсы, избегай ловушек и используй чат-команды, чтобы создать уникальные эффекты или победить!  
 
-- Video Zombie Attack Game: https://youtu.be/vCGPyVq8H48
+- Видео Zombie Attack Game: https://youtu.be/vCGPyVq8H48
 
 ---
 
