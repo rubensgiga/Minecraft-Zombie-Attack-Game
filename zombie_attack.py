@@ -145,7 +145,7 @@ while True:
     # --------------------------
     # Ограничение выхода за арену
     # --------------------------
-    if abs(pos.x - spawn_x) > 70 or abs(pos.z - spawn_z) > 70:
+    if abs(pos.x - spawn_x) > 50 or abs(pos.z - spawn_z) > 50:
         safe_teleport(spawn_x, spawn_y, spawn_z)
         mc.postToChat("Возвращайся обратно и сражайся!!!")
     
@@ -250,4 +250,5 @@ while True:
                 mc.setBlocks(pos.x, pos.y, pos.z, pos.x + 3, pos.y + 3, pos.z, block.AIR.id)
                 mc.setBlock(pos.x, pos.y, pos.z, block.FIRE.id)
                 over = True
+
 
