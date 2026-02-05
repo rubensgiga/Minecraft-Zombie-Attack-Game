@@ -34,7 +34,7 @@ def safe_teleport(x, y, z):
 
 # Строим арену 10x10 из розового стекла
 def build_arena(center_x, center_y, center_z):
-    y = center_y + 1
+    y = center_y + 3
     x1 = center_x - 5
     x2 = center_x + 5
     z1 = center_z - 5
@@ -250,3 +250,4 @@ while True:
                 mc.setBlocks(pos.x, pos.y, pos.z, pos.x + 3, pos.y + 3, pos.z, block.AIR.id)
                 mc.setBlock(pos.x, pos.y, pos.z, block.FIRE.id)
                 over = True
+
